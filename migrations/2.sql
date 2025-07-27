@@ -1,0 +1,9 @@
+
+CREATE TABLE chord_diagrams (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  chord_name TEXT NOT NULL UNIQUE,
+  fret_positions TEXT NOT NULL,
+  finger_positions TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

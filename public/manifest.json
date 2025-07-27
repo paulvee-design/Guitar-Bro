@@ -1,0 +1,25 @@
+{
+  "name": "Guitar Bro",
+  "short_name": "Guitar Bro",
+  "description": "Interactive guitar tabs with autoscroll and chord diagrams",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://mocha-cdn.com/01984732-4e9f-7c80-a95f-fb7164ba3cf7/Copy-of-Rock-ON.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://mocha-cdn.com/01984732-4e9f-7c80-a95f-fb7164ba3cf7/Copy-of-Rock-ON.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["music", "education"],
+  "scope": "/",
+  "lang": "en"
+}
